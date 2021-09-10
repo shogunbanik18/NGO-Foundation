@@ -1,0 +1,216 @@
+/* CSS RESET PROPERTY  */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* INITIALIZING THE COLOR PALETTE  */
+:root{
+    --primary: #ffffff;
+    --green:#94DE1D;
+    --dark: rgb(8, 20, 3);
+}
+
+/* FOR SMOOTH SCROLLING  */
+html{
+    scroll-behavior:smooth;
+}
+
+/* HEADER PART STYLING  */
+
+
+header{
+    /* width: 100%; */
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#logo {
+    height: 36px;
+    width: 47px;
+    margin-left: 19px;
+    margin-right: -31px;
+}
+.navbar{
+    background-color: rgb(8, 20, 3) !important;
+    opacity: 95%;
+    border-bottom-right-radius: 2.5em;
+    /* border-top-right-radius: 2.5em; */
+}
+
+.navbar-collapse{
+    margin-left: 10vw !important;
+}
+
+.nav-link{
+    color: white ;
+    padding: 10px 50px;
+    margin: 0vw 1vw !important;
+    transition: all 0.3s ease !important;
+}
+
+#navone
+{
+    color: rgb(255, 255, 255);
+}
+
+
+#navone:hover{
+    color: rgb(211, 255, 17);
+}
+
+#title1
+{
+    padding-left: 30px;
+}
+
+/* Section Home  */
+#Home{
+    /* linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.247)) */
+    background-image: url(./PICS/1invest.jpg);
+    opacity: 1;
+    height: 800px;
+    z-index: -999;
+    /* min-width: 700px; */
+    /* position: relative; */
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.text{
+    color: rgb(26, 0, 0);
+    font-weight: 500;
+}
+h1#hometext{
+    padding: 121px 45px 15px 741px;
+}
+h5#hometext{
+    padding: 15px 45px 21px 773px;
+}
+
+
+#containerone{
+    width: 0px;
+    margin-left: 830px;
+}
+#Donateone
+{
+    padding: 20px 20px;
+    /* width: 10px; */
+}
+
+#btntwo {
+    margin-right: 51px;
+    padding: 20px;
+    margin-left: 872px;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(8, 20, 3);
+    opacity: 95%;
+    list-style: none;
+}
+
+#btntwo a {
+    color: white;
+    list-style: none;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#btntwo a:hover
+{
+    color: yellow;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+
+
+/* About Us  */
+h2#Knowone
+{
+        margin-left: 113px;
+        padding: 5px 40px 10px 10px;
+}
+
+#About{
+        background: #EFEFEF;
+        opacity: 0.95;
+        height: 395px;
+        position: relative;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    #about1{
+        margin-top: 0;
+        padding-left: 150px;
+        margin-bottom: 1rem;
+        font-size: 18px;
+        padding-right: 100px;
+    }
+
+/* CONTACT US  */
+#Contact{
+    background: rgb(8, 20, 3);
+    opacity: 0.95;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#contact1 {
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-left: 500px;
+}
+.w-100 {
+    height: 100%;
+    width: 100%!important;
+}
+
+#form1{
+    padding-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#exampleInputPassword1
+{
+    padding: 30px;
+}
+#checkone
+{
+    color: white;
+}
+#emailHelp
+{
+    color: cornsilk;
+}
+#button1
+{
+    background-color: rgb(23, 59, 8);
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+}
+#button1:hover{
+    transition: 0.3s ease;
+    color: yellow
+}
+.form-label
+{
+    color: cornsilk;
+}
+    /* STYLING THE FOOTER SECTION  */
+    footer{
+        background-color:rgb(8, 20, 3 );
+        color: var(--primary);
+        padding: 5px 20px;
+        font-size: small;
+        text-align: center;
+    
+    }
+

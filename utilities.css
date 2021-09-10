@@ -1,0 +1,57 @@
+
+/* FOR FLEXBOX  */
+.flex{
+    display: flex;
+}
+
+/* FOR DISPLAYING CONTENT SPACE AS REQUIRED  */
+.inline_block{
+    display: inline-block;
+}
+
+/* FOR ALIGNING ITEMS AT THE CENTER  */
+.items-center{
+    align-items: center;
+    /* text-align: center; */
+}
+
+
+/* FOR JUSTIFYING SPACE BETWEEN TWO ITEMS */
+.justify-content{
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.justify{
+    justify-content: center;
+}
+/* STYLING THE BUTTON  */
+.btn{
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 4px solid var(--red);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px  solid var(--red);
+    border-width: 4px;
+    padding-left: 10px;   
+    padding-right: 10px;   
+    padding-top: 10px;   
+    padding-bottom: 10px; 
+    /* border-radius: 15px;   */
+
+    /* ADDING A TRANSITION EFFECT  */
+    transition: all 0.5s ease;
+    
+}
+
+/* ADDING A HOVER EFFECT TO THE CONTACT BUTTON  */
+.btn:hover{
+    color: yellow;
+    background-color: var(--dark);
+    border-color: none;
+}
+
